@@ -1,5 +1,4 @@
 #!/usr/bin/env
-@file:Repository("https://repo1.maven.org/maven2/")
 @file:DependsOn("com.google.code.gson:gson:2.11.0")
 
 import com.google.gson.Gson
@@ -7,6 +6,7 @@ import java.util.zip.ZipEntry
 import java.util.zip.ZipOutputStream
 import java.nio.file.Files
 import java.nio.file.Path
+import java.nio.file.StandardOpenOption
 import kotlin.io.path.createDirectories
 import kotlin.io.path.createFile
 import kotlin.io.path.createParentDirectories
@@ -34,8 +34,7 @@ Gson().fromJson(root.resolve("packs.json").readText(), Array<PackEntry>::class.j
 }
 
 fun zipFolder(sourceFolder: Path, zipFile: Path) {
-    zipFile.createParentDirectories().createFile()
-    ZipOutputStream(zipFile.outputStream()).use { zipOut ->
+    ZipOutputStream(zipFile.outputStream(StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)).use { zipOut ->
         Files.walk(sourceFolder).forEach { filePath ->
             if (Files.isRegularFile(filePath)) {
                 val zipEntry = ZipEntry(sourceFolder.relativize(filePath).toString())
