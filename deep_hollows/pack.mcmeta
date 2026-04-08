@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": "Converts all stone textures to deepslate in the crystal hollows",
+    "min_format": 55,
+    "max_format": 64,
+    "pack_format": 55,
+    "supported_formats": {
+      "min_inclusive": 55,
+      "max_inclusive": 64
+    }
+  }
+}

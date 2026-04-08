@@ -1,0 +1,6 @@
+{
+  "type": "per_area",
+  "entries": {
+    "darkmode_mist:mist": "darkmode_mist:snow"
+  }
+}

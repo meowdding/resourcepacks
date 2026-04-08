@@ -1,0 +1,6 @@
+{
+  "type": "per_area",
+  "entries": {
+    "catharsis:glacite_tunnels": "overgrown_tunnels:glacite_snow"
+  }
+}

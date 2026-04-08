@@ -1,0 +1,11 @@
+{
+  "type": "conditional",
+  "condition": {
+    "type": "in_island",
+    "island": "MINESHAFT"
+  },
+  "definition": {
+    "type": "redirect",
+    "virtual_state": "overgrown_tunnels:hardstone"
+  }
+}

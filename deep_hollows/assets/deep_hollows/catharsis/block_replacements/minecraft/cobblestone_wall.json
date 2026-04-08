@@ -1,0 +1,11 @@
+{
+  "type": "conditional",
+  "condition": {
+    "type": "in_island",
+    "island": "CRYSTAL_HOLLOWS"
+  },
+  "definition": {
+    "type": "redirect",
+    "virtual_state": "deep_hollows:cobblestone_wall"
+  }
+}
