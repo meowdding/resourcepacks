@@ -1,13 +1,12 @@
+#!/usr/bin/env
 @file:Repository("https://repo1.maven.org/maven2/")
 @file:DependsOn("com.google.code.gson:gson:2.11.0")
 
 import com.google.gson.Gson
-import java.io.FileOutputStream
 import java.util.zip.ZipEntry
 import java.util.zip.ZipOutputStream
 import java.nio.file.Files
 import java.nio.file.Path
-import kotlin.io.path.Path
 import kotlin.io.path.createDirectories
 import kotlin.io.path.createFile
 import kotlin.io.path.createParentDirectories
