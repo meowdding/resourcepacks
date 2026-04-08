@@ -1,0 +1,13 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:model",
+    "model": "fancy_panes:item/13"
+  },
+  "tints": [
+    {
+      "type": "constant",
+      "value": 11184810
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "fancy_panes:item/4",
+    "layer1": "fancy_panes:item/4"
+  }
+}
