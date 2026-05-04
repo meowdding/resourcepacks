@@ -6,24 +6,25 @@ on:
 
 jobs:
   build:
+    strategy:
+      matrix:
+        include:
+          - name: Darkmode Mist
+            id: darkmode_mist
+          - name: Deep Hollows
+            id: deep_hollows
+          - name: Overgrown Tunnels
+            id: overgrown_tunnels
+          - name: Fancy Panes
+            id: fancy_panes
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Set up Java
-        uses: actions/setup-java@v4
+      - name: Upload ${{ matrix.name }} Pack
+        uses : actions/upload-artifact@v7
         with:
-          java-version: '25'
-          distribution: 'temurin'
-
-      - name: Run Script
-        run: |
-          chmod +x .github/scripts/buildpack.main.kts 
-          kotlin .github/scripts/buildpack.main.kts
-
-      - name: Upload Generated Packs
-        uses: actions/upload-artifact@v4
-        with:
-          name: all-packs
-          path: dest/*.zip
+          name: ${{ matrix.name }}
+          path: ${{ matrix.id }}/*
