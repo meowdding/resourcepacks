@@ -16,7 +16,7 @@ import kotlin.io.path.readText
 
 data class PackEntry(val id: String, val name: String)
 
-val root = __FILE__.toPath().parent.parent.parent
+val root = __FILE__.toPath().toAbsolutePath().parent.parent.parent
 val destination = root.resolve("dest").createDirectories()
 
 println("1")
