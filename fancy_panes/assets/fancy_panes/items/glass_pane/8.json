@@ -2,12 +2,13 @@
   "oversized_in_gui": true,
   "model": {
     "type": "minecraft:model",
-    "model": "fancy_panes:item/8"
-  },
-  "tints": [
-    {
-      "type": "constant",
-      "value": 16777215
-    }
-  ]
+    "model": "fancy_panes:item/8",
+    "tints": [
+      {
+        "type": "catharsis:config",
+        "pack": "fancy_panes",
+        "id": "pane_color"
+      }
+    ]
+  }
 }

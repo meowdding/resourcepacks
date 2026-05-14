@@ -1,12 +1,29 @@
 {
-  "pack": {
-    "description": "Adds the fancy panes from NEU to modern minecraft!",
-    "min_format": 55,
-    "max_format": 64,
-    "pack_format": 55,
-    "supported_formats": {
-      "min_inclusive": 55,
-      "max_inclusive": 64
+    "pack": {
+        "description": "Adds the fancy panes from NEU to modern Minecraft!",
+        "min_format": 55,
+        "max_format": 255,
+        "pack_format": 55,
+        "supported_formats": {
+            "min_inclusive": 55,
+            "max_inclusive": 255
+        }
+    },
+    "catharsis:pack/v1": {
+        "id": "fancy_panes",
+        "version": "1.0.0",
+        "dependencies": {
+            "catharsis": ">=1.0.0-beta.15"
+        },
+        "config": [
+            {
+                "type": "color",
+                "id": "pane_color",
+                "title": "Glass Pane Color",
+                "description": "The color of an unstained glass pane.",
+                "default": 4294967295,
+                "alpha": true
+            }
+        ]
     }
-  }
 }

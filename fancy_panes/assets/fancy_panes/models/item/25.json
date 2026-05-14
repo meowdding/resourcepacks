@@ -1,7 +1,15 @@
 {
   "parent": "builtin/generated",
   "textures": {
-    "layer0": "fancy_panes:item/25",
-    "layer1": "fancy_panes:item/25"
+    "layer0": "fancy_panes:item/25"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        1.125,
+        1.125,
+        1
+      ]
+    }
   }
 }

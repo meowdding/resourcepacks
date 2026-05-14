@@ -2,12 +2,12 @@
   "oversized_in_gui": true,
   "model": {
     "type": "minecraft:model",
-    "model": "fancy_panes:item/6"
-  },
-  "tints": [
-    {
-      "type": "constant",
-      "value": 16777215
-    }
-  ]
+    "model": "fancy_panes:item/6",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 16777215
+      }
+    ]
+  }
 }
