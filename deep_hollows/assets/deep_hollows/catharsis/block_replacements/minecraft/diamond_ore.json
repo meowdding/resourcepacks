@@ -6,6 +6,6 @@
   },
   "definition": {
     "type": "redirect",
-    "virtual_state": "deep_hollows:diamond_ore"
+    "virtual_state": "minecraft:deepslate_diamond_ore"
   }
 }

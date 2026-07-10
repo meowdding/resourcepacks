@@ -6,6 +6,6 @@
   },
   "definition": {
     "type": "redirect",
-    "virtual_state": "deep_hollows:redstone_ore"
+    "virtual_state": "minecraft:deepslate_redstone_ore"
   }
 }

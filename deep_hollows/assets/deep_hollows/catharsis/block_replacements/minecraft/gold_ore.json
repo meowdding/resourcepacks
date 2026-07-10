@@ -6,6 +6,6 @@
   },
   "definition": {
     "type": "redirect",
-    "virtual_state": "deep_hollows:gold_ore"
+    "virtual_state": "minecraft:deepslate_gold_ore"
   }
 }

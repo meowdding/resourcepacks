@@ -6,6 +6,6 @@
   },
   "definition": {
     "type": "redirect",
-    "virtual_state": "deep_hollows:cobblestone_wall"
+    "virtual_state": "minecraft:cobbled_deepslate_wall"
   }
 }

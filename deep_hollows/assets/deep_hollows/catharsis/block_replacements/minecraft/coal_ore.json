@@ -6,6 +6,6 @@
   },
   "definition": {
     "type": "redirect",
-    "virtual_state": "deep_hollows:coal_ore"
+    "virtual_state": "minecraft:deepslate_coal_ore"
   }
 }

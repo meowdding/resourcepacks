@@ -6,6 +6,6 @@
   },
   "definition": {
     "type": "redirect",
-    "virtual_state": "deep_hollows:lapis_ore"
+    "virtual_state": "minecraft:deepslate_lapis_ore"
   }
 }
