@@ -3,5 +3,12 @@
     "description": "Converts all stone textures to deepslate in the crystal hollows",
     "min_format": 84,
     "max_format": 88
+  },
+  "catharsis:pack/v1": {
+    "id": "overgrown_tunnels",
+    "version": "1.0.0",
+    "dependencies": {
+      "catharsis": ">=1.0.0-beta.20"
+    }
   }
 }
