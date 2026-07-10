@@ -1,6 +1,9 @@
 {
   "type": "per_area",
   "entries": {
-    "catharsis:glacite_tunnels": "overgrown_tunnels:hardstone"
+    "overgrown_tunnels:glacite_tunnels": {
+      "type": "redirect",
+      "virtual_state": "minecraft:smooth_basalt"
+    }
   }
 }

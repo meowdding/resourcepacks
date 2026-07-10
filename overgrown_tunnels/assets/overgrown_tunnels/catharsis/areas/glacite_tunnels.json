@@ -1,0 +1,8 @@
+{
+  "type": "simple",
+  "box": {
+    "min": "-128:112:184",
+    "max": "127:174:479"
+  },
+  "islands": "dwarven_mines"
+}

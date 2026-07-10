@@ -22,7 +22,7 @@
       "model": "overgrown_tunnels:block/snow_height14"
     },
     "layers=8": {
-      "model": "minecraft:block/snow"
+      "model": "minecraft:block/moss_block"
     }
   }
 }
