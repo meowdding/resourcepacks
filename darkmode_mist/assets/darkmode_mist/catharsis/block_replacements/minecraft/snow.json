@@ -1,6 +1,9 @@
 {
   "type": "per_area",
   "entries": {
-    "darkmode_mist:mist": "darkmode_mist:snow"
+    "darkmode_mist:mist": {
+      "type": "redirect",
+      "virtual_state": "darkmode_mist:snow"
+    }
   }
 }

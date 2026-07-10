@@ -1,6 +1,9 @@
 {
   "type": "per_area",
   "entries": {
-    "darkmode_mist:mist": "darkmode_mist:light_blue_stained_glass_pane"
+    "darkmode_mist:mist": {
+      "type": "redirect",
+      "virtual_state": "minecraft:gray_stained_glass_pane"
+    }
   }
 }

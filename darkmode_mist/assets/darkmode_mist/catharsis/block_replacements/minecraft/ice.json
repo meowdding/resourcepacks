@@ -1,6 +1,9 @@
 {
   "type": "per_area",
   "entries": {
-    "darkmode_mist:mist": "darkmode_mist:ice"
+    "darkmode_mist:mist": {
+      "type": "redirect",
+      "virtual_state": "minecraft:polished_blackstone"
+    }
   }
 }
